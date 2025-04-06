@@ -1,0 +1,25 @@
+real food_charge
+real tip
+real tax
+real total
+
+Put "Enter the cost of your meal:" to output
+food_charge = Get next input
+
+tip = food_charge * 0.18
+tax = food_charge * 0.07
+total = food_charge + tip + tax
+
+Put "Meal Breakdown:" to output
+
+Put "Food charge: $" to output
+Put food_charge to output
+
+Put "Tip (18%): $" to output
+Put tip to output
+
+Put "Sales Tax (7%): $" to output
+Put tax to output
+
+Put "Total Price: $" to output
+Put total to output
